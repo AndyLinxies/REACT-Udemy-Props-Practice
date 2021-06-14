@@ -6,6 +6,7 @@ const Card = (props) => {
             
             <div className="card">
                 <div className="top">
+                <h1>{props.keyvu}</h1>
                     <h2 className="name" >{props.name}</h2>
                     <img className="circle-img "
                         src={props.src}
